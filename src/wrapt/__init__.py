@@ -2,7 +2,7 @@ __version_info__ = ('1', '11', '2')
 __version__ = '.'.join(__version_info__)
 
 from .wrappers import (ObjectProxy, CallableObjectProxy, FunctionWrapper,
-        BoundFunctionWrapper, WeakFunctionProxy, PartialCallableObjectProxy,
+        BoundFunctionWrapper, WeakFunctionProxy, ClassProxy, PartialCallableObjectProxy,
         resolve_path, apply_patch, wrap_object, wrap_object_attribute,
         function_wrapper, wrap_function_wrapper, patch_function_wrapper,
         transient_function_wrapper)
